@@ -1,0 +1,15 @@
+#header{
+	position: fixed;
+	top: 0;
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	font-weight: bold;
+}
+
+@media (max-width: 756px){
+	body{
+		flex-wrap: wrap;
+	}
+}
